@@ -1,4 +1,4 @@
-//nyanyi yook
+//SIKAT WAKKKK!!!
 
 async function tampilkanLirik(bait, delays) {
     for (let i = 0; i < bait.length; i++) {
@@ -13,20 +13,43 @@ async function tampilkanLirik(bait, delays) {
   // lirik lagu
   const lirik = [
     {
-      bait: ["Stecu", "stecu", "stelan", "cuek", "baru", "malu"],
-      delays: [1000, 700, 700, 850, 700, 600]
+      bait: ["Aduh,", "Abang,", "bukan", "maksudku", "begitu"],
+      delays: [1000, 550, 400, 650, 700]
     },
     {
-      bait: ["Aduh", "adek", "ini", "mau", "juga", "abang", "yang", "rayu"],
-      delays: [70, 80, 110, 550, 350, 200, 500, 500]
+      bait: ["Masalah", "stecu", "bukan", "brarti", "tak", "mau"],
+      delays: [900, 600, 640, 500, 600, 400]
     },
     {
-      bait: ["Stecu", "stecu", "stelan", "cuek", "baru", "malu"],
-      delays: [400, 700, 700, 850, 700, 600]
+      bait: ["Jual,", "mahal", "dikit", "kan", "bisa"],
+      delays: [800, 500, 500, 450, 500]
     },
     {
-      bait: ["Aduh", "adek", "ini", "mau", "juga", "abang", "yang", "maju"],
-      delays: [50, 80, 110, 550, 350, 200, 450, 500]
+      bait: ["Coba", "kasih", "effort-nya", "saja"],
+      delays: [0, 200, 400, 550, ]
+    },
+    {
+      bait: ["Kalau", "memang", "cocok", "bisa", "datang", "ke", "rumah"],
+      delays: [0, 200, 200, 550, 600, 550, 200]
+    },
+    { bait: [" "],
+      delays: [0]
+    },
+    {
+      bait: ["Stecu,", "stecu,", "stelan", "cuek", "baru", "malu"],
+      delays: [0, 700, 700, 850, 700, 600]
+    },
+    {
+      bait: ["Aduh,", "ade", "ini", "mau", "juga", "abang", "yang", "rayu"],
+      delays: [85, 80, 110, 550, 350, 200, 500, 500]
+    },
+    {
+      bait: ["Stecu,", "stecu,", "stelan", "cuek", "baru", "malu"],
+      delays: [900, 700, 700, 850, 700, 600]
+    },
+    {
+      bait: ["Aduh,", "ade", "ini", "mau", "juga", "abang", "yang", "maju"],
+      delays: [200, 80, 110, 550, 350, 200, 500, 600]
     },
   ];
   
