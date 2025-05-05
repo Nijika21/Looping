@@ -13,7 +13,7 @@ async function tampilkanLirik(bait, delays) {
   // lirik lagu
   const lirik = [
     {
-      bait: ["Aduh,", "Abang,", "bukan", "maksudku", "begitu"],
+      bait: ["Aduh,", "Abang", "bukan", "maksudku", "begitu"],
       delays: [1000, 550, 400, 650, 700]
     },
     {
@@ -21,7 +21,7 @@ async function tampilkanLirik(bait, delays) {
       delays: [900, 600, 640, 500, 600, 400]
     },
     {
-      bait: ["Jual,", "mahal", "dikit", "kan", "bisa"],
+      bait: ["Jual", "mahal", "dikit", "kan", "bisa"],
       delays: [800, 500, 500, 450, 500]
     },
     {
@@ -53,11 +53,11 @@ async function tampilkanLirik(bait, delays) {
     },
   ];
   
-  // Fungsi menampilkan lirik
+  // outout lirik
   async function main() {
     for (const bait of lirik) {
       await tampilkanLirik(bait.bait, bait.delays);
-      // Delay antar bait
+      // Delay per bait
       await new Promise(resolve => setTimeout(resolve, 1000));
     }
   }
